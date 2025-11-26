@@ -1,5 +1,5 @@
-import Adpater.EmployeeAdapter;
-import Adpater.Target;
+import Adapter.EmployeeAdapter;
+import Adapter.Target;
 import Factory.DataAnalyticsEngine;
 import Factory.DatabaseFactory;
 import Factory.DatabaseType;

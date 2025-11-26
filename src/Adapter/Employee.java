@@ -1,4 +1,4 @@
-package Adpater;
+package Adapter;
 
 public class Employee {
     private int id;

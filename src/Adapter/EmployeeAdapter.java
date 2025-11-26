@@ -1,4 +1,4 @@
-package Adpater;
+package Adapter;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -21,6 +21,6 @@ public class EmployeeAdapter implements Target{
             Employee employee = new Employee(id, name, designation, salary);
             employees.add(employee);
         }
-        billingSystem.ProcessSalary(employees);
+        billingSystem.processSalary(employees);
     }
 }
